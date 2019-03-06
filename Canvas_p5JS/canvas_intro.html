@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content-"width-device-width, initial-scale=1">
+	<title>Canvas1</title>
+</head>
+<body>
+	<canvas id="myCanvas"></canvas>
+	<script>
+		var canvas = document.getElementById('myCanvas');
+		var canvasContext = canvas.getContext('2d');
+		//---- Code copied from git, below --
+		canvasContext.lineWidth = 10;
+		canvasContext.strokeStyle = 'cornflowerblue';
+		canvasContext.strokeRect(10, 10, 70, 70);
+		canvasContext.fillStyle = 'lightsalmon';
+		canvasContext.fillRect(50, 30, 40, 40);
+
+	</script>
+
+</body>
+</html>
